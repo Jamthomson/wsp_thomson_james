@@ -1,0 +1,17 @@
+/* CSS for Style Tile HTML Doc */
+body{
+	background-color: #8d395d;
+	font: 100%/125%;
+	padding: 15px;
+	max-width: 960px;
+	margin: 0 auto;
+}
+
+h1{
+	padding: 15px;
+}
+
+img{
+	border: 10px inset #999;
+	box-shadow: 10px 10px 10px #666
+}
