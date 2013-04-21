@@ -1,1 +1,11 @@
 /* Exotic Experience in Orlando Main CSS Style Sheet*/
+
+body{
+	font: 100%/125%;
+	font-family: Verdana, Helvetica, Arial, sans-serif;
+	background-color: #d4a823;
+	padding: 15px;
+	max-width: 960px;
+	margin; 0 auto;
+}
+
