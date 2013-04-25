@@ -20,6 +20,9 @@ body{
 	padding: 15px 0;
 }
 
+#footer{
+	clear: both;
+}
 /*----------Navigation------------*/
 
 #navigation ul{	
@@ -32,7 +35,6 @@ body{
 
 #navigation li{
 	width: 25%; /*120px/480*/
-	/*float: left;*/
 }
 
 #navigation a{
@@ -123,6 +125,47 @@ td{
 #animals a:active{
 	border-color: #bc5413;
 }
+
+/*----------Photo Gallery----------*/
+
+#photogallery ul{
+	list-style-type: none;
+	width: 600px;
+	margin: 20px auto;
+	overflow: hidden;
+	padding: 10px;
+}
+
+#photogallery li{
+	float: left;
+	margin-right: 20px;
+}
+
+#photogallery a{
+	border: 10px inset #456f2f;
+	display: block;
+	height: 80px;
+	width: 100px;
+	border-radius: 10px;
+	box-shadow: 5px 5px 5px #666;
+	outline: 0;
+	margin: 20px;
+}
+
+#photogallery a:visited{
+	border-color: #456f2f;
+}
+
+#photogallery a:hover{
+	border-color: #913d08;
+}
+
+#photogallery a:active{
+	border-color: #bc5413;
+}
+
+
+
 
 
 
