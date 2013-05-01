@@ -39,8 +39,9 @@ background-color: #415441;
 	clear: both;
 }
 
-#homepageimage{
+#homeimage img{
 	width: 52.916667%; /*508px/960 */
+	float: left;
 }
 
 
@@ -196,6 +197,7 @@ td{
 img{
 	max-width: 100%;
 }
+
 
 /*---------------------------Media Queries------------------------------------*/
 
