@@ -2,13 +2,14 @@
 
 body{	
 background-color: #415441;
+background-image: url(../images/texture.png);
 }
 
 
 #wrapper{
 	font: 100%/1.5;
 	font-family: Verdana, Helvetica, Arial, sans-serif;
-	background-color: #d4a823;
+	background-color: #415441;
 	overflow: hidden;
 	padding: 1.5625%; /*15px/960*/
 	width: 67.368421%; /* 960px/1425 */
@@ -69,12 +70,16 @@ h2{
 
 #navigation a{
 	text-decoration: none;
-	color: #304969;
+	color: #fff;
 	display: block;
 	height: 30px; 
 	line-height: 30px;
 	text-align: center;
-	border: 5px groove #456f2f;
+	border: 5px groove #000;
+}
+
+#navigation a:link{
+	color: 000;
 }
 
 #navigation a:visited{
