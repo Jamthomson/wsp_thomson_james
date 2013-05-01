@@ -36,6 +36,16 @@ background-image: url(../images/texture.png);
 	margin-right: 1.041667%; /*10px/960*/
 }
 
+#social{
+	background-color: #fff;
+	float: left;
+	width: 100%;
+}
+
+.banner{
+	float: right;
+}
+
 #footer{
 	clear: both;
 }
@@ -79,7 +89,7 @@ h2{
 }
 
 #navigation a:link{
-	color: 000;
+	color: #fff;
 }
 
 #navigation a:visited{
@@ -121,7 +131,7 @@ th{
 td{
 	border: 2px solid black;
 	padding: 10px;
-	width: 100%
+	width: 100%;
 }
 
 /*----------Meet the Animals----------*/
@@ -208,24 +218,26 @@ img{
 
 /*Tablet Portrait size to standard 960 (devices and browsers)*/
 @media only screen and (min-width: 768px) and (max-width: 959px){
-	/*#wrapper{background-color: #509cff;}*/
+	#wrapper{background-color: #509cff;}
 	#information{width: 100%; float: none;}
 	footer{clear: both;}
-	#navigation{width: 960px; float: left;}
-	#cta{float: right; width: 100%;}
+	#navigation li{width: 100%; float: none;}
+	#cta{float: none; width: 100%;}
 	#animals{float: left; margin: 0 auto; width: 100%}
 }
 
 /*Mobile Landscape Size to Tablet Portrait (device and browsers)*/
 @media only screen and (min-width: 545px) and (max-width: 767px){
-	/*#wrapper{background-color: #ff7743;}*/
-	#navigation li{width: 100%; float: left;}
+	#wrapper{background-color: #ff7743;}
+	#navigation li{width: 100%; float: none;}
 	#information{width: 100%; float: none;}
 	footer{clear: both;}
 	#newsletter{width: 100%; float: left;}
 	#form{width: 100%;}
-	#cta{display: none;}
+	#cta{float: none; width: 100%;}
 	#animals h3{display: none;}
+	#social{float: left;}
+
 
 
 	
@@ -233,12 +245,12 @@ img{
 
 /*Mobile Portrait Size to Mobile Landscape Size (device and browsers)*/
 @media only screen and (max-width: 623px){
-	/*#wrapper{background-color: #d593ff;}*/
+	#wrapper{background-color: #d593ff;}
 	#navigation li{ width: 100%; float: none;}
 	#information{width: 100%; float: none;}
 	footer{clear: both;}
 	/*#homepageimage{display: none;}*/
-	#cta{width: 100%; display: none;}
+	#cta{float: none; width: 100%;}
 	#newsletter{width: 100%; float: left;}
 	#form{width: 100%;}
 	table{ width: 100%;}
