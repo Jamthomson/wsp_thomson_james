@@ -260,7 +260,7 @@ img{
 
 /*Tablet Portrait size to standard 960 (devices and browsers)*/
 @media only screen and (min-width: 768px) and (max-width: 959px){
-	#wrapper{background-color: #509cff;}
+	/*#wrapper{background-color: #509cff;}*/
 	#information{width: 100%; float: none;}
 	footer{clear: both;}
 	#navigation li{width: 100%; float: none;}
@@ -271,7 +271,7 @@ img{
 
 /*Mobile Landscape Size to Tablet Portrait (device and browsers)*/
 @media only screen and (min-width: 545px) and (max-width: 767px){
-	#wrapper{background-color: #ff7743;}
+	/*#wrapper{background-color: #ff7743;}*/
 	#navigation li{width: 100%; float: none;}
 	#information{width: 100%; float: none;}
 	footer{clear: both;}
@@ -287,7 +287,7 @@ img{
 
 /*Mobile Portrait Size to Mobile Landscape Size (device and browsers)*/
 @media only screen and (max-width: 623px){
-	#wrapper{background-color: #d593ff;}
+	/*#wrapper{background-color: #d593ff;}*/
 	#navigation li{ width: 100%; float: none;}
 	#information{width: 100%; float: none;}
 	footer{clear: both;}
